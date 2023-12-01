@@ -1,3 +1,7 @@
-div{
-    color: brown;
-}
+:root {
+    --black: #1E1E1E;
+    --white: #ECECEC;
+    --red: #E52A30;
+    --ligth-red: #FF655A;
+    
+  }
