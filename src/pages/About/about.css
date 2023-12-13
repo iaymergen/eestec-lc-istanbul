@@ -1,1 +1,42 @@
-@import '../../style.css'
+
+.page{
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-card{
+    background-color: var(--black);
+    width: 90%;
+    padding: 48px;
+    gap: 16px;
+}
+
+
+.title{
+    color: var(--red);
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    white-space: nowrap;
+}
+
+hr{
+    border: 1px solid var(--red);
+    width: 75%;
+
+}
+
+.content{
+    color: var(--white);
+    margin-left: 144px;
+    width: 70%;
+    display: block;
+    text-align: justify;
+}
+
+
