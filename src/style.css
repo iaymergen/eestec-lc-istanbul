@@ -5,3 +5,8 @@
     --ligth-red: #FF655A;
     
   }
+
+  *{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--black);
+  }

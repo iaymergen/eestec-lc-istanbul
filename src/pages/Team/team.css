@@ -1,1 +1,47 @@
-@import '../../style.css'
+.team-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.teamtitle{
+    color: var(--red);
+    width: 50%;
+}
+
+
+.ttright{
+    text-align: end;
+}
+.people-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.red{
+
+    color: var(--red);
+
+}
+
+.group{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.people-div-rows{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
