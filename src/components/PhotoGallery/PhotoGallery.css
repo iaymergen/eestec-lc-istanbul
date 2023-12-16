@@ -24,6 +24,7 @@
 }
 .swiper-button-prev,
 .swiper-button-next {
- 
+ background: none;
+ text-shadow: 4px 0 5px var(--white);
 }
 
