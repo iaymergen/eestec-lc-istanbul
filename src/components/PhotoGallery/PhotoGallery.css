@@ -6,6 +6,7 @@
 }
 
 .swiper-container {
+  width: 80%;
   position: relative;
   overflow: hidden;
   padding: 64px;
@@ -27,4 +28,5 @@
  background: none;
  text-shadow: 4px 0 5px var(--white);
 }
+
 

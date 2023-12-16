@@ -45,6 +45,8 @@ const PhotoGallery = ({ photos }) => {
         modules={[Pagination, Navigation]}
         onSwiper={(swiper) => setSwiper(swiper)}
         className='swiper-container'
+        
+        
       >
         {photos.map((photo, index) => (
           <SwiperSlide key={index}>

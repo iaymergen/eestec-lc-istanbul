@@ -11,19 +11,17 @@
     width: 50%;
 }
 
-
 .ttright{
     text-align: end;
 }
 .people-div{
     display: flex;
     flex-direction: row;
+    
 }
 
 .red{
-
     color: var(--red);
-
 }
 
 .group{
@@ -32,14 +30,30 @@
     flex-direction: row;
 }
 
-.people-div-rows{
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width: 480px) {
+    .group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .ttright{
+        text-align: center;
+    }
+    .teamtitle{
+        width: 50%;
+        align-self: center;
+        text-align: justify;
+    }
 }
 
 .row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
