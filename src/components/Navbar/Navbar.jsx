@@ -4,6 +4,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const Menu = () => (
    <>
+    <p className='hover-animation p1'><a href="#">Ana Sayfa</a></p>
    <p className='hover-animation p1'><a href="#">Hakkımızda</a></p>
     <p className='hover-animation p2'><a href="#">Etkinliklerimiz</a></p>
     <p className='hover-animation p3'><a href="#">Magazin</a></p>
@@ -14,6 +15,7 @@ const Menu = () => (
 
 const Menu1 = () => (
   <>
+    <p className='hover-animation p1'><a href="#">Ana Sayfa</a></p>
   <p ><a href="#">Hakkımızda</a></p>
    <p><a href="#">Etkinliklerimiz</a></p>
    <p><a href="#">Magazin</a></p>
@@ -31,7 +33,7 @@ const Navbar = () => {
       <div className='eestec__navbar-links'>
         <div className='eestec__navbar-links_logo'>
           {/* <p>EESTEC LC Istanbul</p> */}
-          <img src="./img/BeyazLogo.png" alt="EESTEC LC Istanbul Logo" />
+          <img src="./img//logos/BeyazLogo.png" alt="EESTEC LC Istanbul Logo" />
         </div>
         <div className='eestec__navbar-links_container'>
           <Menu />
