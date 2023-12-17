@@ -1,1 +1,28 @@
-@import '../../style.css'
+.contact-box{
+    height: fit-content;
+    width: 60%;
+    color: var(--white);
+    background: var(--grey);
+    margin: 16px;
+    padding: 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mail-link{
+    color: var(--ligth-red);
+}
+
+.contact-content{
+    background: none;
+}
+
+.map{
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .map {
+        width: 90%;
+    }
+}
