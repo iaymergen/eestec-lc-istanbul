@@ -108,6 +108,7 @@
     .eestec__navbar-menu_container a {
         text-decoration: none;
         color: var(--white);
+        background-color: rgba(30, 30, 30, 0.85);
     }
 
     .eestec__navbar-menu_container a:hover {
