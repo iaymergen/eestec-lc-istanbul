@@ -15,8 +15,8 @@ const Menu = () => (
 
 const Menu1 = () => (
   <>
-    <p className='hover-animation p1'><a href="#">Ana Sayfa</a></p>
-  <p ><a href="#">Hakkımızda</a></p>
+    <p><a href="#">Ana Sayfa</a></p>
+  <p><a href="#">Hakkımızda</a></p>
    <p><a href="#">Etkinliklerimiz</a></p>
    <p><a href="#">Magazin</a></p>
    <p><a href="#">Ekibimiz</a></p>
