@@ -29,7 +29,12 @@ const PhotoGallery = ({ photos }) => {
     <div className='gallery-container'>
       <Swiper
         spaceBetween={30}
-        slidesPerView={3}
+        slidesPerView={1}
+        breakpoints={{
+          768: {
+            slidesPerView: 3,
+          },
+        }}
         slidesPerGroup={1}
         loop={true}
         pagination={{ el: '.swiper-pagination', clickable: true }}
