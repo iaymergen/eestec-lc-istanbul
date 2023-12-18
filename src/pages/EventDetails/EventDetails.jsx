@@ -30,7 +30,16 @@ const EventDetails = () => {
           <p>{description}</p>
         </div>
       </div>
+      <div className='left-card'>
+        <div className="title"><h1>Fotoğraflarımız</h1></div>
+
+      </div>
       <PhotoGallery photos={photos} />
+      <div className='left-card'>
+        <div className="title"><h1>Sponsorlarımız</h1></div>
+
+      </div>
+
       <PhotoGallery photos={sponsors} />
     </div>
   );
