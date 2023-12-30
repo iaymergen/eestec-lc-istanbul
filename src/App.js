@@ -9,6 +9,7 @@ import Magazine from './pages/Magazine/Magazine';
 import Team from './pages/Team/Team';
 import Contact from './pages/Contact/Contact';
 import EventDetails from './pages/EventDetails/EventDetails';
+import MagazineDetails from './pages/MagazineDetails/MagazineDetails';
 import { useState } from 'react'
 
 
@@ -60,6 +61,10 @@ function App() {
         {
           path: "/events/:id", 
           element: <EventDetails/>
+        },
+        {
+          path: "/magazines/:id",
+          element: <MagazineDetails/>
         },
 
       ]
