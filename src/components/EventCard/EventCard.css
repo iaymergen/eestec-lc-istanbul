@@ -1,3 +1,7 @@
+.event-card-link{
+    text-decoration: none;
+}
+
 .event-card{
     width: 200px;
     height: 250px;
