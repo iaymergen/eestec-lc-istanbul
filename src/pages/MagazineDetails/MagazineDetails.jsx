@@ -1,7 +1,8 @@
 import React from 'react';
 import './MagazineDetails.css';
 import dummyMagazine from '../../data/dummyMagazine';
-import { useParams } from 'react-router-dom'; // Import useParams
+import { useParams } from 'react-router-dom'; 
+import PdfFlipBook from '../../components/PdfFlipbook/PdfFlipbook'
 
 const MagazineDetails = () => {
   // Access the event ID from the URL params using useParams
@@ -27,7 +28,7 @@ const MagazineDetails = () => {
           <hr />
         </div>
         <div className="content">
-          
+          <PdfFlipBook/>
         </div>
       </div>
       
