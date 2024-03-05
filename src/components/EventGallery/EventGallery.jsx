@@ -27,10 +27,10 @@ const EventGallery = ({events}) => {
   return (
     <div className='gallery-container'>
       <Swiper
-        spaceBetween={30}
+        spaceBetween={25}
         slidesPerView={1}
         breakpoints={{
-          768: {
+          1125: {
             slidesPerView: 3,
           },
         }}
