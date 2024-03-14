@@ -7,6 +7,7 @@ import YouTubePlayer from '../../components/YoutubePlayer/YoutubePlayer';
 import EventCard from '../../components/EventCard/EventCard';
 import dummyMagazine from '../../data/dummyMagazine'
 import MagazineCard from '../../components/MagazineCard/MagazineCard';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -46,11 +47,13 @@ const Home = () => {
         </div>
 
         <div>
-            <EventGallery events={dummyEvents} />
-          </div>
+          <EventGallery events={dummyEvents} />
+        </div>
 
         <div className='eestec__hero-2_button'>
-          <button className='eestec__daha-fazlasi'><p>Daha Fazlası</p></button>
+          <button className='eestec__daha-fazlasi'><a><Link to="/projects">
+            <p style={{ textDecoration: 'none' }}>Daha Fazlası</p>
+          </Link></a></button>
         </div>
 
         <div className='eestec__hero-2_tanitim'>
@@ -77,13 +80,15 @@ const Home = () => {
               id={magazine.id}
               title={magazine.title}
               mainPhoto={magazine.mainPhoto}
-          />
+            />
           )}
         </div>
 
         <div className='eestec__hero-2_button'>
-          <button className='eestec__daha-fazlasi'><p>Dergilerimiz</p></button>
-        </div>
+          <button className='eestec__daha-fazlasi'><a><Link to="/magazine">
+            <p style={{ textDecoration: 'none' }}>Dergilerimiz</p>
+          </Link></a>
+          </button></div>
 
 
       </div>

@@ -1,13 +1,14 @@
 :root {
-    --black: #141414;
-    --white: #ECECEC;
-    --red: #E52A30;
-    --ligth-red: #FF655A;
-    --grey: #514e4e;
-    
-  }
+  --black: #141414;
+  --white: #ECECEC;
+  --red: #E52A30;
+  --ligth-red: #FF655A;
+  --grey: #514e4e;
+  --background-img: "http://localhost:3000/img/photos/istanbul-homepage.jpg";
 
-  *{
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--black);
-  }
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--black);
+}
