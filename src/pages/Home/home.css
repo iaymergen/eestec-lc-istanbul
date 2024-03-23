@@ -272,6 +272,18 @@ p {
     flex: 1;
     margin: 0 1.25rem;
     padding: 1.25rem;
+    background: none;
+}
+
+.yazi {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("http://localhost:3000/img/photos/toplufoto.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.eestec__hero-2_tanitim h3,
+p {
+    background: none;
 }
 
 @media screen and (max-width: 946px) {

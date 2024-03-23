@@ -1,4 +1,4 @@
-.contact-box{
+.contact-box {
     height: fit-content;
     width: 60%;
     color: var(--white);
@@ -9,20 +9,21 @@
     text-align: center;
 }
 
-.mail-link{
+.mail-link {
     color: var(--ligth-red);
 }
 
-.contact-content{
+.contact-content {
     background: none;
 }
 
-.map{
+.map {
     border-radius: 10px;
+    width: 250px;
 }
 
 @media screen and (max-width: 480px) {
     .map {
-        width: 90%;
+        width: 75%;
     }
 }
