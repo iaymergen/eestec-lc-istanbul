@@ -19,7 +19,7 @@ const Home = () => {
             <h2>Connect.</h2>
             <h2>Improve.</h2>
           </div>
-          <button className='eestec__hero_uye-ol'><p>Üye Ol</p></button>
+          <button className='eestec__hero_uye-ol'><a href='https://eestec.net/register'>Üye Ol</a></button>
         </div>
 
         <div className='eestec__hero_container-2'>
@@ -35,7 +35,9 @@ const Home = () => {
 
           <div className='eestec__hero_bilgi'>
             <h3>Nasıl Üye Olunur?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit repellendus amet iure incidunt, non molestias, dicta eius voluptatum ipsam rem iusto deleniti ipsa ab tempora facere repudiandae placeat? Quos, magnam sit laudantium nulla ea dolorem cum vel? Aut, aperiam sit.</p>
+            <p>EESTEC LC Istanbul üyeliği için yapmanız gereken ilk şey eestec.net websitesi üzerinden kaydınızı oluşturmak. Kaydınız oluştuktan sonra Yönetim Ekibi sorumlularımızdan gelecek onayla beraber üyeliğiniz resmî olarak başlar. 
+
+Aktif üye seviyesine yükselmek için de üyelik aşamanıza ek olarak perşembe günleri İTÜ Ayazağa Kampüsü’nde gerçekleşen haftalık genel toplantılarımıza katılmanız ve toplantı sonunda paylaşılan yoklama formunu doldurmanız gerekmektedir. Dönem boyunca toplantılarımıza %70 oranında katılımınız sizi aktif üye konumuna yükseltecektir.</p>
           </div>
         </div>
         <div className='break'><hr /></div>
@@ -62,7 +64,7 @@ const Home = () => {
               EESTEC Nedir?
             </h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil quam illo fuga non quod similique iure quisquam voluptatibus consequuntur sed consequatur ad aperiam commodi error dolorem nesciunt possimus, nam veritatis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nulla ratione atque tempora, sed eveniet?
+            Elektrik Mühendisliği ve Bilgisayar Bilimi öğrencileri başta olmak üzere tüm bölümlerden öğrencilere açık, kâr amacı gütmeyen, bağımsız bir öğrenci topluluğu olan Electrical Engineering STudents European assoCiation (EESTEC), Avrupa'daki üniversitelerde, enstitülerde ve teknoloji okullarında mühendislik derecesi alan öğrencilere yöneliktir. Mart 2024 verileri dikkate alındığında, 24 ülkeden 47 farklı Avrupa şehrinde EESTEC komitesi bulunmakta ve bu komiteler yerel veya uluslararası boyutta faaliyetlerini sürdürmektedir.
             </p>
           </div>
           <div className='eestec__nedir_tanitim video'>

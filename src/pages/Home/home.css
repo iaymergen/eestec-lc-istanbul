@@ -67,13 +67,14 @@ p {
     border-color: var(--red);
 }
 
-.eestec__hero_uye-ol p {
+.eestec__hero_uye-ol a {
     padding: 0;
     margin: 0;
     color: var(--white);
     background-color: var(--red);
     font-size: 1rem;
     letter-spacing: 1.5px;
+    text-decoration: none;
 }
 
 
