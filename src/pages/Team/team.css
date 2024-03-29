@@ -2,27 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 
-}
-
-.teamtitle {
-    color: var(--red);
-    width: 50%;
-}
-
-.ttright {
-    text-align: end;
-}
-
-.people-div {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-}
-
-.people-div.board {
-    flex-wrap: wrap;
 }
 
 .red {
@@ -35,7 +18,54 @@
     flex-direction: row;
 }
 
+.teamtitle {
+    color: var(--red);
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.teamtitle h1 {
+    margin: 0;
+    /* Reset margin to remove any default spacing */
+}
+
+
+.people-div {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ttright {
+    text-align: end;
+}
+
+.top {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+
+
+
 @media screen and (max-width: 480px) {
+
+    .top {
+        flex-direction: column;
+    }
+
     .group {
         flex-direction: column;
         align-items: center;
@@ -54,41 +84,10 @@
         width: 50%;
         align-self: center;
         text-align: justify;
-    }
-}
 
-.row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-/* Adjustments for smaller screens */
-@media screen and (max-width: 480px) {
-    .group {
-        width: 100%;
-        /* Take full width on smaller screens */
-        flex-direction: column;
-        align-items: center;
     }
 
-    .right {
-        flex-direction: column-reverse;
-        /* Reverse order for better stacking */
-    }
-
-    .ttright {
-        text-align: center;
-        /* Center align titles on smaller screens */
-    }
-
-    .teamtitle {
-        width: 80%;
-        /* Take up more width on smaller screens */
-        align-self: center;
-        text-align: center;
-        /* Center align titles on smaller screens */
+    .teamtitle h1 {
+        font-size: 26px;
     }
 }

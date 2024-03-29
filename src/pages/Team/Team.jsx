@@ -35,69 +35,69 @@ const Team = () => {
       title: 'Product Manager',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'John Doe',
-      title: 'Software Engineer',
+      photo: 'http://localhost:3000/img/photos/team/Efe.PNG',
+      name: 'Güngör Efe Çetin',
+      title: 'IT Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/İpek Aymergen.JPG',
+      name: 'İpek Güneş Aymergen',
+      title: 'IT Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Defne.JPG',
+      name: 'Defne Gümüş',
+      title: 'Kariyer Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Deniz.jpg',
+      name: 'Deniz Çoban',
+      title: 'Kariyer Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Atakan.jpg',
+      name: 'Atakan Tuna',
+      title: 'Design Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Beril.jpg',
+      name: 'Beril Kaya',
+      title: 'Design Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'John Doe',
-      title: 'Software Engineer',
+      photo: 'http://localhost:3000/img/photos/team/Kaan Pulat.jpg',
+      name: 'Kaan Pulat',
+      title: 'Magazin Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Ozan.jpg',
+      name: 'Ozan Rüştü Bezen',
+      title: 'Magazin Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Berk.jpg',
+      name: 'Enes Berk Türköz',
+      title: 'IoT Line Fair Organizatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Onat Kayhan.jpg',
+      name: 'Onat Kayhan',
+      title: 'IoT Line Fair Organizatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Kaan Yılmaz Demir.HEIC',
+      name: 'Kaan Yılmaz Demir',
+      title: 'EESTech Challenge Organizatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Berke.jpeg',
+      name: 'Berke Şaban',
+      title: 'EESTech Challenge Organizatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Zelal Yanar.jpg',
+      name: 'Zelal Yanar',
+      title: 'EESTech Challenge Organizatörü',
     },
 
   ];
@@ -109,19 +109,25 @@ const Team = () => {
     <div className='team-page'>
 
       <h1 className='red'>Ekibimiz</h1>
+      <div className="teamtitle"><h1>Board</h1></div>
+      <div className="group top">
 
-      <div className="group right">
-          <div className="people-div board">
-            {peopleData.slice(0, 6).map((person, index) => (
-              <PersonCard key={index} person={person} />
-            ))}
-          </div>
-        <h1 className="teamtitle ttrigt">Board</h1>
+        <div className="people-div">
+          {peopleData.slice(0, 3).map((person, index) => (
+            <PersonCard key={index} person={person} />
+          ))}
+        </div>
+      </div>
+      <div className="group top">
+        <div className="people-div">
+          {peopleData.slice(3, 6).map((person, index) => (
+            <PersonCard key={index} person={person} />
+          ))}
+        </div>
       </div>
 
-
       <div className="group left">
-        <h1 className="teamtitle">IT Takım<br />Kordinatörleri</h1>
+        <div className="teamtitle"><h1>IT Takım</h1><h1>Kordinatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(6, 8).map((person, index) => (
             <PersonCard key={index} person={person} />
@@ -135,11 +141,11 @@ const Team = () => {
             <PersonCard key={index} person={person} />
           ))}
         </div>
-        <h1 className="teamtitle ttright">Kariyer Takım<br />Kordinatörleri</h1>
+        <div className="teamtitle"><h1>Kariyer Takım</h1><h1>Kordinatörleri</h1></div>
       </div>
 
       <div className="group left">
-        <h1 className="teamtitle">Design Takım<br />Kordinatörleri</h1>
+        <div className="teamtitle"><h1>Design Takım</h1><h1>Kordinatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(10, 12).map((person, index) => (
             <PersonCard key={index} person={person} />
@@ -153,11 +159,11 @@ const Team = () => {
             <PersonCard key={index} person={person} />
           ))}
         </div>
-        <h1 className="teamtitle ttright">Magazin Takım<br />Kordinatörleri</h1>
+        <div className="teamtitle"><h1>Magazin Takım</h1><h1>Kordinatörleri</h1></div>
       </div>
 
       <div className="group left">
-        <h1 className="teamtitle">IoT Line Fair'23<br />Organizatörleri</h1>
+        <div className="teamtitle"><h1>IoT Line Fair'24</h1><h1>Organizatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(14, 16).map((person, index) => (
             <PersonCard key={index} person={person} />
@@ -171,7 +177,7 @@ const Team = () => {
             <PersonCard key={index} person={person} />
           ))}
         </div>
-        <h1 className="teamtitle ttright">EESTech Challenge<br />Organizatörleri</h1>
+        <div className="teamtitle"><h1>EESTech Challenge</h1><h1>Organizatörleri</h1></div>
       </div>
 
     </div>

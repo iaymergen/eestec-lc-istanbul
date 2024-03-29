@@ -7,39 +7,19 @@
     align-items: center;
 }
 
-@media screen and (max-width: 480px) {
-    .card-div {
-        height: 150px; /* Adjust height for smaller screens */
-        width: 150px; /* Adjust width for smaller screens */
-    }
-
-    .person-photo {
-        height: 70px; /* Adjust photo height for smaller screens */
-        width: 70px; /* Adjust photo width for smaller screens */
-    }
-
-    .person-name {
-        font-size: 14px; /* Adjust font size for smaller screens */
-    }
-
-    .person-title {
-        font-size: 10px; /* Adjust font size for smaller screens */
-    }
-}
-
-
-.person-photo{
+.person-photo {
     height: 50%;
     width: 50%;
     border-radius: 50%;
     margin-bottom: 5px;
 }
 
-.person-info{
+.person-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center; 
 }
 
 .person-info p {
@@ -47,11 +27,68 @@
     color: var(--white);
 }
 
-.person-name{
+.person-name {
     font-weight: bold;
     font-size: 16px;
 }
 
-.person-title{
+.person-title {
     font-size: 12px;
+    word-wrap: break-word;
+
+}
+
+@media screen and (max-width: 460px) {
+    .card-div {
+        margin-top: 16px;
+        width: 150px;
+        height: 150px;
+        /* Adjust width for smaller screens */
+    }
+
+    .person-photo {
+        height: 70px;
+        /* Adjust photo height for smaller screens */
+        width: 70px;
+        /* Adjust photo width for smaller screens */
+    }
+
+
+    .person-name {
+        font-size: 12px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .person-title {
+        font-size: 9px;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .card-div {
+        margin-top: 16px;
+        width: 150px;
+        height: 150px;
+        /* Adjust width for smaller screens */
+    }
+
+    .person-photo {
+        height: 70px;
+        /* Adjust photo height for smaller screens */
+        width: 70px;
+        /* Adjust photo width for smaller screens */
+    }
+
+
+    .person-name {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .person-title {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
 }
