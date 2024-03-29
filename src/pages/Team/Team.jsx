@@ -5,34 +5,34 @@ import PersonCard from '../../components/PersonCard/PersonCard'
 const Team = () => {
   const peopleData = [
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'John Doe',
-      title: 'Software Engineer',
+      photo: 'http://localhost:3000/img/photos/team/Bade.PNG',
+      name: 'Bade Naz Güreş',
+      title: 'Başkan',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Onur Kaymaz.jpg',
+      name: 'Hüseyin Onur Kaymaz',
+      title: 'Sayman',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Alperen.jpg',
+      name: 'Alperen Demiral',
+      title: 'CP',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Ada.jpg',
+      name: 'Ada Özdemiroğlu',
+      title: 'VC-HR',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Tuğçe .jpeg',
+      name: 'Tuğçe Taş',
+      title: 'VC-PR',
     },
     {
-      photo: 'http://localhost:3000/img/photos/pexels2.jpeg',
-      name: 'Jane Doe',
-      title: 'Product Manager',
+      photo: 'http://localhost:3000/img/photos/team/Aziz Karademir.jpg',
+      name: 'Aziz Karadmir',
+      title: 'VC-CR',
     },
     {
       photo: 'http://localhost:3000/img/photos/team/Efe.PNG',
