@@ -25,12 +25,12 @@ const Home = () => {
         <div className='eestec__hero_container-2'>
           <div className='eestec__hero_bilgi'>
             <h3>Biz Kimiz?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, vel perferendis. Inventore officiis consectetur, deserunt quaerat omnis molestias id culpa quidem delectus laudantium repudiandae harum laborum, asperiores expedita quia impedit molestiae? Asperiores distinctio exercitationem nam. Beatae sunt itaque tenetur error.</p>
+            <p>EESTEC LC Istanbul, uluslararası bir mühendislik topluluğu olan EESTEC'in Avrupa’daki 46 farklı komitesinden biridir. Başta bilgisayar, elektrik, elektronik, kontrol ve telekomünikasyon mühendisliği öğrencileri olmak üzere İstanbul’da okuyan öğrencilerin üyeliğine açık olarak İstanbul Teknik Üniversitesi, Elektrik-Elektronik Fakültesi'nde faaliyetlerini sürdürmektedir. Fakültemiz öğrencileri ilk olarak Şubat 2005'te EESTEC İstanbul Yerel Komitesini oluşturdular. EESTEC LC Istanbul şu anda hem farklı EESTEC komitelerinin katılabileceği uluslararası etkinliklere hem de İstanbul'da katılımcılarının teknik ve sosyal becerilerini geliştirmeye yönelik çeşitli etkinliklere ev sahipliği yapmaktadır. </p>
           </div>
 
           <div className='eestec__hero_bilgi'>
             <h3>Neler Yapıyoruz?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iusto illo dolore facere maiores! Fugiat doloribus aperiam unde eum ea cupiditate tempora illo eos incidunt voluptatibus dolores sit eaque harum, deleniti reprehenderit asperiores quidem beatae aliquid possimus. Corporis, quia natus!</p>
+            <p>Peki kulübümüz neler yapıyor? Hem uluslararası etkinliklerde hem de yerel seviyede aktif olarak faaliyetlerimizi sürdürmekteyiz. Yerel komitemiz bünyesinde çeşitli yazılım eğitimleri vermekte, Türkiye’nin en büyük IoT fuarını düzenlemekte ve kazanan ekibin final turu için yurt dışına çıktığı EESTech Challenge Local Round adında bir kodlama yarışması organize etmekteyiz. Tüm bunların yanı sıra her sene, yurt dışındaki EESTEC komitelerinden katılımcıları ağırladığımız bir uluslararası etkinlik de düzenlemekteyiz. Üyelerimizin gelişimlerine hem yurt içinde hem de uluslararası etkinliklerde katkı sağlamayı hedef edinmiş bir şekilde çalışmalarımızı sürdürmekteyiz. #lcistanbulrocks</p>
           </div>
 
           <div className='eestec__hero_bilgi'>

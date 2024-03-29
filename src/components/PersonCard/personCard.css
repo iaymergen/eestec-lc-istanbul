@@ -1,4 +1,4 @@
-.card-div{
+.card-div {
     height: 250px;
     width: 250px;
     display: flex;
@@ -6,13 +6,27 @@
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 480px) {
     .card-div {
-        width: 100px;
-        height: 100px;
+        height: 150px; /* Adjust height for smaller screens */
+        width: 150px; /* Adjust width for smaller screens */
     }
 
+    .person-photo {
+        height: 70px; /* Adjust photo height for smaller screens */
+        width: 70px; /* Adjust photo width for smaller screens */
+    }
+
+    .person-name {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .person-title {
+        font-size: 10px; /* Adjust font size for smaller screens */
+    }
 }
+
 
 .person-photo{
     height: 50%;

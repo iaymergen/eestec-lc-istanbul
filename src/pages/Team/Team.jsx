@@ -111,18 +111,11 @@ const Team = () => {
       <h1 className='red'>Ekibimiz</h1>
 
       <div className="group right">
-        <div className='row'>
-          <div className="people-div">
-            {peopleData.slice(0, 2).map((person, index) => (
+          <div className="people-div board">
+            {peopleData.slice(0, 6).map((person, index) => (
               <PersonCard key={index} person={person} />
             ))}
           </div>
-          <div className="people-div">
-            {peopleData.slice(2,6).map((person, index) => (
-              <PersonCard key={index} person={person} />
-            ))}
-          </div>
-        </div>
         <h1 className="teamtitle ttrigt">Board</h1>
       </div>
 

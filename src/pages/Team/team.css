@@ -1,30 +1,35 @@
-.team-page{
+.team-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    
+
 }
 
-.teamtitle{
+.teamtitle {
     color: var(--red);
     width: 50%;
 }
 
-.ttright{
+.ttright {
     text-align: end;
 }
-.people-div{
+
+.people-div {
     display: flex;
     flex-direction: row;
-    
+    width: 90%;
 }
 
-.red{
+.people-div.board {
+    flex-wrap: wrap;
+}
+
+.red {
     color: var(--red);
 }
 
-.group{
+.group {
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -36,26 +41,54 @@
         align-items: center;
     }
 
-    .right{
+    .right {
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    .ttright{
+    .ttright {
         text-align: center;
     }
-    .teamtitle{
+
+    .teamtitle {
         width: 50%;
         align-self: center;
         text-align: justify;
     }
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
+/* Adjustments for smaller screens */
+@media screen and (max-width: 480px) {
+    .group {
+        width: 100%;
+        /* Take full width on smaller screens */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right {
+        flex-direction: column-reverse;
+        /* Reverse order for better stacking */
+    }
+
+    .ttright {
+        text-align: center;
+        /* Center align titles on smaller screens */
+    }
+
+    .teamtitle {
+        width: 80%;
+        /* Take up more width on smaller screens */
+        align-self: center;
+        text-align: center;
+        /* Center align titles on smaller screens */
+    }
+}

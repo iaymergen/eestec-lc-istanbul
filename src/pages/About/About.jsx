@@ -6,12 +6,12 @@ import PhotoGallery from '../../components/PhotoGallery/PhotoGallery';
 const About = () => {
 
   const photos = [
-    'http://localhost:3000/img/photos/deneme.jpg',
     'http://localhost:3000/img/photos/about/about-1.jpg',
     'http://localhost:3000/img/photos/about/about-2.JPG',
     'http://localhost:3000/img/photos/about/about-3.jpg',
-
-
+    'http://localhost:3000/img/photos/about/about-4.jpg',
+    'http://localhost:3000/img/photos/about/about-5.jpg',
+    'http://localhost:3000/img/photos/about/about-6.JPG',
   ];
 
   return (
@@ -24,12 +24,12 @@ const About = () => {
       </div>
       <div className='left-card'>
         <div className="title"><hr /><h1>Amacımız Ne?</h1></div>
-        <div className="content right-text"><p>EESTEC LC Istanbul'un amacı uluslararası seminer ve değişim programlarına üyelerini yollamak, teknik bilgileri, sosyal ve kültürel değerleri paylaşmak, öğrencilere diğer ülkeleri ve eğitim sistemini tanıtmaktır. Ayrıca EESTEC LC Istanbul uluslararası kariyer, iş ve staj fırsatlarını da mümkün kılmaktadır. Sonuç olarak LC İstanbul, aktif üyelerinin organizasyon becerileri kazanmalarına, sektörde faaliyet gösteren kuruluşlarla daha yakın ilişkiler kurmalarına, sosyal ve kültürel değerler ve fırsatların paylaşılmasına yardımcı olmaktadır. #lcistanbulrocks</p></div>
+        <div className="content right-text"><p>EESTEC LC Istanbul'un amacı uluslararası seminer ve değişim programlarına üyelerini yollamak, teknik bilgileri, sosyal ve kültürel değerleri paylaşmak, öğrencilere diğer ülkeleri ve eğitim sistemini tanıtmaktır. Ayrıca EESTEC LC Istanbul uluslararası kariyer, iş ve staj fırsatlarını da mümkün kılmaktadır. Sonuç olarak LC İstanbul, aktif üyelerinin organizasyon becerileri kazanmalarına, sektörde faaliyet gösteren kuruluşlarla daha yakın ilişkiler kurmalarına, sosyal ve kültürel değerler ve fırsatların paylaşılmasına yardımcı olmaktadır.</p></div>
       </div>
 
       <div className='left-card'>
         <div className="title"><h1>Neler Yapıyoruz?</h1> <hr /></div>
-        <div className="content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+        <div className="content"><p>Peki kulübümüz neler yapıyor? Hem uluslararası etkinliklerde hem de yerel seviyede aktif olarak faaliyetlerimizi sürdürmekteyiz. Yerel komitemiz bünyesinde çeşitli yazılım eğitimleri vermekte, Türkiye’nin en büyük IoT fuarını düzenlemekte ve kazanan ekibin final turu için yurt dışına çıktığı EESTech Challenge Local Round adında bir kodlama yarışması organize etmekteyiz. Tüm bunların yanı sıra her sene, yurt dışındaki EESTEC komitelerinden katılımcıları ağırladığımız bir uluslararası etkinlik de düzenlemekteyiz. Üyelerimizin gelişimlerine hem yurt içinde hem de uluslararası etkinliklerde katkı sağlamayı hedef edinmiş bir şekilde çalışmalarımızı sürdürmekteyiz. #lcistanbulrocks</p></div>
       </div>
       <div className='left-card'>
         <div className="title"><hr /><h1>Fotoğraflarımız</h1> </div>
