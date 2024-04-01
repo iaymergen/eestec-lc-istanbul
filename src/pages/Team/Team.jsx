@@ -70,7 +70,7 @@ const Team = () => {
       title: 'Magazin Takım Kordinatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/team/Ozan.jpg',
+      photo: 'http://localhost:3000/img/photos/team/OzanRB.png',
       name: 'Ozan Rüştü Bezen',
       title: 'Magazin Takım Kordinatörü',
     },
@@ -85,12 +85,12 @@ const Team = () => {
       title: 'IoT Line Fair Organizatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/team/Kaan Yılmaz Demir.HEIC',
+      photo: 'http://localhost:3000/img/photos/team/KaanYD.jpeg',
       name: 'Kaan Yılmaz Demir',
       title: 'EESTech Challenge Organizatörü',
     },
     {
-      photo: 'http://localhost:3000/img/photos/team/Berke.jpeg',
+      photo: 'http://localhost:3000/img/photos/team/BerkeSaban.jpeg',
       name: 'Berke Şaban',
       title: 'EESTech Challenge Organizatörü',
     },
