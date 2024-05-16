@@ -1,29 +1,34 @@
+// src/data/dummyMagazine.js
 const dummyMagazine = [
-    {
-      id: '1',
-      title: "Exciting Events in the Tech World",
-      mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
-      url: "https://example.com/magazine1",
-    },
-    {
-      id: '2',
-      title: "Innovation Unleashed: The Latest in Science",
-      mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
-      url: "https://example.com/magazine2",
-    },
-    {
-      id: '3',
-      title: "Discovering New Horizons in Space Exploration",
-      mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
-      url: "https://example.com/magazine3",
-    },
-    {
-      id: '4',
-      title: "Space Exploration",
-      mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
-      url: "https://example.com/magazine3",
-    },
-    // Add more entries as needed
-  ];
+  {
+    id: '1',
+    title: "2022 Aralık Sayısı",
+    mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
+    url: "https://example.com/magazine1",
+    pdfUrl: "gs://fir-4cb62.appspot.com/2022 Aralık_compressed.pdf" 
+  },
+  {
+    id: '2',
+    title: "2022 Ekim Sayısı",
+    mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
+    url: "https://example.com/magazine2",
+    pdfUrl: "gs://fir-4cb62.appspot.com/2022 Ekim.pdf" 
+  },
 
-  export default dummyMagazine;
+  {
+    id: '3',
+    title: "2022 Aralık Sayısı",
+    mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
+    url: "https://example.com/magazine1",
+    pdfUrl: "gs://fir-4cb62.appspot.com/2022 Aralık_compressed.pdf" 
+  },
+  {
+    id: '4',
+    title: "2022 Ekim Sayısı",
+    mainPhoto: "http://localhost:3000/img/photos/deneme.jpg",
+    url: "https://example.com/magazine2",
+    pdfUrl: "gs://fir-4cb62.appspot.com/2022 Ekim.pdf" 
+  },
+];
+
+export default dummyMagazine;

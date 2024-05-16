@@ -1,38 +1,30 @@
+// src/components/MagazineDetails/MagazineDetails.js
 import React from 'react';
 import './MagazineDetails.css';
 import dummyMagazine from '../../data/dummyMagazine';
 import { useParams } from 'react-router-dom'; 
-import PdfFlipBook from '../../components/PdfFlipbook/PdfFlipbook'
+import FlipBook from '../../components/FlipBook/FlipBook'; // Update the path
 
 const MagazineDetails = () => {
-  // Access the event ID from the URL params using useParams
-  const { id } = useParams();
- 
+  const { id } = useParams(); // Assuming your route includes an id parameter
 
-  // Fetch the event details based on the ID from your data (dummyEvents)
+  // Find the selected magazine based on the id
   const selectedMagazine = dummyMagazine.find(magazine => magazine.id === id);
-  
-
-  // Check if the event exists
-  if (!selectedMagazine) {
-    return <div>Error: Event not found</div>;
-  }
-
-  const { title} = selectedMagazine;
 
   return (
     <div className='page'>
       <div className='left-card'>
         <div className="title">
-          <h1>{title}</h1>
           <hr />
         </div>
         <div className="content">
-          <PdfFlipBook/>
+          {selectedMagazine ? (
+            <FlipBook pdfUrl={selectedMagazine.pdfUrl} /> // Pass PDF URL to FlipBook
+          ) : (
+            <p>Magazine not found</p>
+          )}
         </div>
       </div>
-      
-      
     </div>
   );
 };

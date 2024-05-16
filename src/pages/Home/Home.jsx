@@ -7,7 +7,9 @@ import YouTubePlayer from '../../components/YoutubePlayer/YoutubePlayer';
 import EventCard from '../../components/EventCard/EventCard';
 import dummyMagazine from '../../data/dummyMagazine'
 import MagazineCard from '../../components/MagazineCard/MagazineCard';
+import MagazineGallery from '../../components/MagazineGallery/MagazineGallery'
 import { Link } from 'react-router-dom';
+
 
 const Home = () => {
   return (
@@ -76,21 +78,17 @@ Aktif üye seviyesine yükselmek için de üyelik aşamanıza ek olarak perşemb
           <h3>Magazin</h3>
         </div>
 
-        <div className='eestec__magazine_box'>
-          {dummyMagazine.map((magazine, index) =>
-            <MagazineCard className="eestec__magazine_cards" key={index}
-              id={magazine.id}
-              title={magazine.title}
-              mainPhoto={magazine.mainPhoto}
-            />
-          )}
-        </div>
+        {/*<div className='eestec__magazine_box'> {dummyMagazine.map((magazine, index) => <MagazineCard className="eestec__magazine_cards" key={index} id={magazine.id} title={magazine.title} mainPhoto={magazine.mainPhoto} /> )} </div>
 
-        <div className='eestec__hero-2_button'>
+         <div className='eestec__hero-2_button'>
           <button className='eestec__daha-fazlasi'><a><Link to="/magazine">
             <p style={{ textDecoration: 'none' }}>Dergilerimiz</p>
           </Link></a>
-          </button></div>
+          </button></div> */}
+
+        <div>
+          <MagazineGallery events={dummyMagazine} />
+        </div>
 
 
       </div>

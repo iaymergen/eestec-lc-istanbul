@@ -17,18 +17,29 @@ const EventDetails = () => {
     return <div>Error: Event not found</div>;
   }
 
-  const { title, description, photos, sponsors } = selectedEvent;
+  const { title, description, purpose, photos, sponsors } = selectedEvent;
 
   return (
     <div className='page'>
       <div className='left-card'>
         <div className="title">
-          <h1>{title}</h1>
+          <h1>{title} Nedir? </h1>
           <hr />
         </div>
+
         <div className="content">
           <p>{description}</p>
         </div>
+
+        <div className="title">
+          <hr />
+          <h1>{title} Neyi Amaçlar? </h1>
+        </div>
+
+        <div className="content">
+          <p>{purpose}</p>
+        </div>
+        
       </div>
       <div className='left-card'>
         <div className="title"><h1>Fotoğraflarımız</h1></div>

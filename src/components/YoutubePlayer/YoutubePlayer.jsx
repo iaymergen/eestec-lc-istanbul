@@ -8,6 +8,8 @@ class YouTubePlayer extends React.Component {
       width: window.innerWidth > 1005 ? 640 : 480,
       height: window.innerWidth > 1005 ? 360 : 270,
     };
+
+    this._onReady = this._onReady.bind(this);
   }
 
   updateVideoSize = () => {
