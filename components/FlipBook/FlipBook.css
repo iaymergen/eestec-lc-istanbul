@@ -1,0 +1,11 @@
+.pdf-flipbook-container {
+  width: 75%;
+   /* You can adjust the width of the container */
+  margin: auto; /* Center the container */
+}
+
+.image-small {
+  max-width: 100%; /* Make sure images don't exceed their container's width */
+  max-height: 100%; /* Make sure images don't exceed their container's height */
+}
+
