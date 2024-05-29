@@ -35,6 +35,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Setup NodeJS
         uses: actions/setup-node@v4
+      - name: Install dependencies
+        run: yarn install
       - name: Build project
         run: yarn build
       - name: Upload artifact
