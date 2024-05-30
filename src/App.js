@@ -1,4 +1,3 @@
-
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -10,75 +9,35 @@ import Team from './pages/Team/Team';
 import Contact from './pages/Contact/Contact';
 import EventDetails from './pages/EventDetails/EventDetails';
 import MagazineDetails from './pages/MagazineDetails/MagazineDetails';
-import { useState } from 'react'
-
-
-
-
-import {createBrowserRouter, RouterProvider, Route, Outlet} from "react-router-dom"
+import { useState } from 'react';
+import { HashRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
 
 function App() {
-
-  const Layout = () =>{
-    return(
+  const Layout = () => {
+    return (
       <div>
-        <Navbar/>
-        <Outlet/>
-        <Footer/>
+        <Navbar />
+        <Outlet />
+        <Footer />
       </div>
-    )
-  }
+    );
+  };
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Layout/>,
-      children: [
-        {
-          path: "/",
-          element: <Home/>
-        },
-        { 
-          path: "/about",
-          element: <About/>
-        },
-        {
-          path: "/projects",
-          element: <Projects/>
-        },
-        {
-          path: "/magazine",
-          element: <Magazine/>
-        },
-        {
-          path: "/team",
-          element: <Team/>
-        },
-        {
-          path: "/contact",
-          element: <Contact/>
-        },
-        {
-          path: "/events/:id", 
-          element: <EventDetails/>
-        },
-        {
-          path: "/magazines/:id",
-          element: <MagazineDetails/>
-        },
-
-      ]
-    },
-
-  
-  ]);
-
-  
-  
   return (
-    <div >
-      <RouterProvider router={router} />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="magazine" element={<Magazine />} />
+          <Route path="team" element={<Team />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="events/:id" element={<EventDetails />} />
+          <Route path="magazines/:id" element={<MagazineDetails />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
