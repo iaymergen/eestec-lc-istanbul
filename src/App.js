@@ -10,7 +10,7 @@ import Contact from './pages/Contact/Contact';
 import EventDetails from './pages/EventDetails/EventDetails';
 import MagazineDetails from './pages/MagazineDetails/MagazineDetails';
 import { useState } from 'react';
-import { HashRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import { HashRouter, Router, Routes, Route, Outlet } from 'react-router-dom';
 
 function App() {
   const Layout = () => {
@@ -24,7 +24,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -37,7 +37,7 @@ function App() {
           <Route path="magazines/:id" element={<MagazineDetails />} />
         </Route>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
