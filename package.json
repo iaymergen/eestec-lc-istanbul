@@ -1,6 +1,6 @@
 {
   "name": "eestec-lc-istanbul",
-  "homepage": "https://istanbul.eestec.net/",
+  "homepage": "https://istanbul.eestec.net/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
