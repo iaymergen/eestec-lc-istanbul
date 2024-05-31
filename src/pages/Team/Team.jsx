@@ -5,22 +5,22 @@ import PersonCard from '../../components/PersonCard/PersonCard'
 const Team = () => {
   const peopleData = [
     {
-      photo: 'http://localhost:3000/img/photos/team/Bade.PNG',
+      photo: 'https://istanbul.eestec.net/img/photos/team/Bade.PNG',
       name: 'Bade Naz Güreş',
       title: 'Başkan',
     },
     {
-      photo: 'http://localhost:3000/img/photos/team/Onur Kaymaz.jpg',
+      photo: 'https://istanbul.eestec.net/eestec-lc-istanbul/img/photos/team/Onur Kaymaz.jpg',
       name: 'Hüseyin Onur Kaymaz',
       title: 'Sayman',
     },
     {
-      photo: 'http://localhost:3000/img/photos/team/Alperen.jpg',
+      photo: 'istanbul.eestec.net/eestec-lc-istanbul/img/photos/team/Alperen.jpg',
       name: 'Alperen Demiral',
       title: 'CP',
     },
     {
-      photo: 'http://localhost:3000/img/photos/team/Ada.jpg',
+      photo: 'istanbul.eestec.net/img/photos/team/Ada.jpg',
       name: 'Ada Özdemiroğlu',
       title: 'VC-HR',
     },
