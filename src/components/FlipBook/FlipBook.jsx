@@ -25,13 +25,13 @@ function FlipBook({ pdfUrl }) {
     useEffect(() => {
         // Initialize Firebase
         const firebaseConfig = {
-          apiKey: "AIzaSyDz-2KAD5AwhQLr9BSNRHiyh-ilV_A_Wrg",
-          authDomain: "fir-4cb62.firebaseapp.com",
-          projectId: "fir-4cb62",
-          storageBucket: "fir-4cb62.appspot.com",
-          messagingSenderId: "459783996603",
-          appId: "1:459783996603:web:3b95ceea1229a5bffed59e",
-          measurementId: "G-F53FJRT1Y3"
+            apiKey: "AIzaSyD5t0No-t0vbTa4yloQVwdArYODMwRYvy0",
+            authDomain: "lc-istanbul-website.firebaseapp.com",
+            projectId: "lc-istanbul-website",
+            storageBucket: "lc-istanbul-website.appspot.com",
+            messagingSenderId: "1056298229064",
+            appId: "1:1056298229064:web:746f7a8efe720e5571a77d",
+            measurementId: "G-4MXH1TT1PY"
         };
         const app = initializeApp(firebaseConfig);
 
