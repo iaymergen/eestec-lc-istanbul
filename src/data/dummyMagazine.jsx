@@ -3,7 +3,7 @@ const dummyMagazine = [
   {
     id: '1',
     title: "2022 Aralık Sayısı",
-    mainPhoto: "istanbul.eestec.net/img/photos/deneme.jpg",
+    mainPhoto: "istanbul.eestec.net/#/img/photos/deneme.jpg",
     url: "https://example.com/magazine1",
     pdfUrl: "gs://fir-4cb62.appspot.com/2022 Aralık_compressed.pdf" 
   },
