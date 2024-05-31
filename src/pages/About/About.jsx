@@ -6,12 +6,12 @@ import PhotoGallery from '../../components/PhotoGallery/PhotoGallery';
 const About = () => {
 
   const photos = [
-    'http://localhost:3000/img/photos/about/about-1.jpg',
-    'http://localhost:3000/img/photos/about/about-2.JPG',
-    'http://localhost:3000/img/photos/about/about-3.jpg',
-    'http://localhost:3000/img/photos/about/about-4.jpg',
-    'http://localhost:3000/img/photos/about/about-5.jpg',
-    'http://localhost:3000/img/photos/about/about-6.JPG',
+    'https://istanbul.eestec.net/img/photos/about/about-1.jpg',
+    'https://istanbul.eestec.net/img/photos/about/about-2.JPG',
+    'https://istanbul.eestec.net/img/photos/about/about-3.jpg',
+    'https://istanbul.eestec.net/img/photos/about/about-4.jpg',
+    'https://istanbul.eestec.net/img/photos/about/about-5.jpg',
+    'https://istanbul.eestec.net/img/photos/about/about-6.JPG',
   ];
 
   return (
