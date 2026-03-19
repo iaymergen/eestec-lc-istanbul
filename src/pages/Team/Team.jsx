@@ -6,99 +6,93 @@ const Team = () => {
   const peopleData = [
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Bade.PNG',
-      name: 'Bade Naz Güreş',
+      name: 'Doruk Efe Erdem',
       title: 'Başkan',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Onur Kaymaz.jpg',
-      name: 'Hüseyin Onur Kaymaz',
+      name: 'Azra Alara Alptekin',
       title: 'Sayman',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Alperen.jpg',
-      name: 'Alperen Demiral',
+      name: 'Irmak Okyay',
       title: 'CP',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Ada.jpg',
-      name: 'Ada Özdemiroğlu',
+      name: 'Dilara Melis Durak',
       title: 'VC-HR',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Tuğçe .jpeg',
-      name: 'Tuğçe Taş',
+      name: 'İlayda Yavuzaslan',
       title: 'VC-PR',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Aziz Karademir.jpg',
-      name: 'Aziz Karadmir',
+      name: 'Poyraz Mert',
       title: 'VC-CR',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Efe.PNG',
-      name: 'Güngör Efe Çetin',
+      name: 'Ada Irmak Köylü',
       title: 'IT Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/İpek Aymergen.JPG',
-      name: 'İpek Güneş Aymergen',
+      name: 'Dilara Kolay',
       title: 'IT Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Defne.JPG',
-      name: 'Defne Gümüş',
+      name: 'Sena Nizamoğlu',
       title: 'Kariyer Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Deniz.jpg',
-      name: 'Deniz Çoban',
+      name: 'Fatma Kurt',
       title: 'Kariyer Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Atakan.jpg',
-      name: 'Atakan Tuna',
+      name: 'Muhammed Ali Bektaş',
       title: 'Design Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Beril.jpg',
-      name: 'Beril Kaya',
+      name: 'Hesna Kan',
       title: 'Design Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Kaan Pulat.jpg',
-      name: 'Kaan Pulat',
+      name: 'Ceren Çokan',
       title: 'Magazin Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/OzanRB.png',
-      name: 'Ozan Rüştü Bezen',
+      name: 'Nehir Nahire Dalda',
       title: 'Magazin Takım Kordinatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Berk.jpg',
-      name: 'Enes Berk Türköz',
+      name: 'Ada Türkkahramanı',
       title: 'IoT Line Fair Organizatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/Onat Kayhan.jpg',
-      name: 'Onat Kayhan',
+      name: 'Muharrem Efe Şen',
       title: 'IoT Line Fair Organizatörü',
     },
     {
       photo: 'https://istanbul.eestec.net/img/photos/team/KaanYD.jpeg',
-      name: 'Kaan Yılmaz Demir',
-      title: 'EESTech Challenge Organizatörü',
+      name: 'Süleyman Görkem Taşdemir',
+      title: 'EESTEC Summit Ana Organizatörü',
     },
-    {
-      photo: 'https://istanbul.eestec.net/img/photos/team/BerkeSaban.jpeg',
-      name: 'Berke Şaban',
-      title: 'EESTech Challenge Organizatörü',
-    },
-    {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Zelal Yanar.jpg',
-      name: 'Zelal Yanar',
-      title: 'EESTech Challenge Organizatörü',
-    },
+    
+     
+    
+    
 
   ];
 
