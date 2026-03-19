@@ -10,7 +10,7 @@ const Team = () => {
       title: 'Başkan',
     },
     {
-      photo: 'public/img/photos/team/alara.jpeg',
+      photo: '/img/photos/team/alara.jpeg',
       name: 'Azra Alara Alptekin',
       title: 'Sayman',
     },
@@ -20,7 +20,7 @@ const Team = () => {
       title: 'CP',
     },
     {
-      photo: 'public/img/photos/team/dilaramelis.jpeg',
+      photo: '/img/photos/team/dilaramelis.jpeg',
       name: 'Dilara Melis Durak',
       title: 'VC-HR',
     },
