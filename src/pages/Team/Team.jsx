@@ -25,8 +25,7 @@ const Team = () => {
       title: 'VC-HR',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Tuğçe .jpeg',
-      name: 'İlayda Yavuzaslan',
+      photo: '/img/photos/team/ilayda.jpeg',      name: 'İlayda Yavuzaslan',
       title: 'VC-PR',
     },
     {
