@@ -79,12 +79,12 @@ const Team = () => {
       title: 'IoT Line Fair Organizatörü',
     },
     {
-      photo: '/img/photos/team/efe.jpeg,
+      photo: '/img/photos/team/efe.jpeg',
       name: 'Muharrem Efe Şen',
       title: 'IoT Line Fair Organizatörü',
     },
     {
-      photo: '/img/photos/team/görkem.jpeg,
+      photo: '/img/photos/team/görkem.jpeg',
       name: 'Süleyman Görkem Taşdemir',
       title: 'EESTEC Summit Ana Organizatörü',
     },
@@ -172,6 +172,7 @@ const Team = () => {
         </div>
         <div className="teamtitle"><h1>EESTEC Summit </h1><h1>Organizatörü</h1></div>
       </div>
+      
 
     </div>
   )
