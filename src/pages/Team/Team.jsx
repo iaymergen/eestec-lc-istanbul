@@ -10,7 +10,7 @@ const Team = () => {
       title: 'Başkan',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Onur Kaymaz.jpg',
+      photo: 'public/img/photos/team/alara.jpeg',
       name: 'Azra Alara Alptekin',
       title: 'Sayman',
     },
