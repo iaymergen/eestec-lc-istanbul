@@ -156,7 +156,7 @@ const Team = () => {
       </div>
 
       <div className="group left">
-        <div className="teamtitle"><h1>IoT Line Fair'24</h1><h1>Organizatörleri</h1></div>
+        <div className="teamtitle"><h1>IoT Line Fair'26</h1><h1>Organizatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(14, 16).map((person, index) => (
             <PersonCard key={index} person={person} />
