@@ -30,7 +30,7 @@ const Team = () => {
       title: 'VC-PR',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Aziz Karademir.jpg',
+      photo: '/img/photos/team/poyraz.jpeg',
       name: 'Poyraz Mert',
       title: 'VC-CR',
     },
