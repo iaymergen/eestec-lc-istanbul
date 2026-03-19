@@ -64,17 +64,17 @@ const Team = () => {
       title: 'Design Takım Kordinatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Kaan Pulat.jpg',
+      photo: 'public/img/photos/team/ceren.jpeg',
       name: 'Ceren Çokan',
       title: 'Magazin Takım Kordinatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/OzanRB.png',
+      photo: '/img/photos/team/nehir.jpeg',
       name: 'Nehir Nahire Dalda',
       title: 'Magazin Takım Kordinatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Berk.jpg',
+      photo: 'public/img/photos/team/adatk.jpeg',
       name: 'Ada Türkkahramanı',
       title: 'IoT Line Fair Organizatörü',
     },
