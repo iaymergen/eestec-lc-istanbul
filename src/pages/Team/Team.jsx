@@ -39,17 +39,17 @@ const Team = () => {
       title: 'IT Takım Kordinatörü',
     },
     {
-      photo: 'public/img/photos/team/dilarakolay.jpeg',
+      photo: '/img/photos/team/dilarakolay.jpeg',
       name: 'Dilara Kolay',
       title: 'IT Takım Kordinatörü',
     },
     {
-      photo: 'public/img/photos/team/sena.jpeg',
+      photo: '/img/photos/team/sena.jpeg',
       name: 'Sena Nizamoğlu',
       title: 'Kariyer Takım Kordinatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Deniz.jpg',
+      photo: '/img/photos/team/fatma.jpeg',
       name: 'Fatma Kurt',
       title: 'Kariyer Takım Kordinatörü',
     },
