@@ -39,7 +39,7 @@ const Team = () => {
       title: 'IT Takım Kordinatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/İpek Aymergen.JPG',
+      photo: 'public/img/photos/team/dilarakolay.jpeg',
       name: 'Dilara Kolay',
       title: 'IT Takım Kordinatörü',
     },
