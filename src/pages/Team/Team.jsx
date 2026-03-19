@@ -5,7 +5,7 @@ import PersonCard from '../../components/PersonCard/PersonCard'
 const Team = () => {
   const peopleData = [
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Bade.PNG',
+      photo: '/img/photos/team/WhatsApp Image 2026-03-20 at 00.09.12.jpeg'
       name: 'Doruk Efe Erdem',
       title: 'Başkan',
     },
