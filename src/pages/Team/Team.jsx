@@ -54,12 +54,12 @@ const Team = () => {
       title: 'Kariyer Takım Kordinatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Atakan.jpg',
+      photo: '/img/photos/team/mali.jpeg',
       name: 'Muhammed Ali Bektaş',
       title: 'Design Takım Kordinatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Beril.jpg',
+      photo: '',
       name: 'Hesna Kan',
       title: 'Design Takım Kordinatörü',
     },
