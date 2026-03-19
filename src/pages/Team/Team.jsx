@@ -5,7 +5,7 @@ import PersonCard from '../../components/PersonCard/PersonCard'
 const Team = () => {
   const peopleData = [
     {
-      photo: ''
+      photo: '',
       name: 'Doruk Efe Erdem',
       title: 'Başkan',
     },
