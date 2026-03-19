@@ -15,7 +15,7 @@ const Team = () => {
       title: 'Sayman',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/WhatsApp Image 2026-03-20 at 00.27.16.jpeg',
+      photo: 'https://istanbul.eestec.net/img/photos/team/WhatsApp Image 2026-03-20 at 00.27.16.jpeg'
       name: 'Irmak Okyay',
       title: 'CP',
     },
