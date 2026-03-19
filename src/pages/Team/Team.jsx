@@ -64,7 +64,7 @@ const Team = () => {
       title: 'Design Takım Kordinatörü',
     },
     {
-      photo: 'public/img/photos/team/ceren.jpeg',
+      photo: '/img/photos/team/ceren.jpeg',
       name: 'Ceren Çokan',
       title: 'Magazin Takım Kordinatörü',
     },
@@ -74,17 +74,17 @@ const Team = () => {
       title: 'Magazin Takım Kordinatörü',
     },
     {
-      photo: 'public/img/photos/team/adatk.jpeg',
+      photo: '/img/photos/team/adatk.jpeg',
       name: 'Ada Türkkahramanı',
       title: 'IoT Line Fair Organizatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Onat Kayhan.jpg',
+      photo: '/img/photos/team/efe.jpeg,
       name: 'Muharrem Efe Şen',
       title: 'IoT Line Fair Organizatörü',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/KaanYD.jpeg',
+      photo: '/img/photos/team/görkem.jpeg,
       name: 'Süleyman Görkem Taşdemir',
       title: 'EESTEC Summit Ana Organizatörü',
     },
