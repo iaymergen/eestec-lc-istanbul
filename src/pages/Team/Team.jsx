@@ -34,7 +34,7 @@ const Team = () => {
       title: 'VC-CR',
     },
     {
-      photo: 'https://istanbul.eestec.net/img/photos/team/Efe.PNG',
+      photo: '/img/photos/team/ada.jpeg',
       name: 'Ada Irmak Köylü',
       title: 'IT Takım Kordinatörü',
     },
