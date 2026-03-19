@@ -170,7 +170,7 @@ const Team = () => {
             <PersonCard key={index} person={person} />
           ))}
         </div>
-        <div className="teamtitle"><h1>EESTech Challenge</h1><h1>Organizatörleri</h1></div>
+        <div className="teamtitle"><h1>EESTEC Summit </h1><h1>Organizatörü</h1></div>
       </div>
 
     </div>
