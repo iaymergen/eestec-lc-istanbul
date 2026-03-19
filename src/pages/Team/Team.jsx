@@ -15,7 +15,7 @@ const Team = () => {
       title: 'Sayman',
     },
     {
-      photo:  '/img/photos/team/irmak.jpeg'
+      photo:  '/img/photos/team/irmak.jpeg',
       name: 'Irmak Okyay',
       title: 'CP',
     },
