@@ -76,17 +76,17 @@ const Team = () => {
     {
       photo: '/img/photos/team/adatk.jpeg',
       name: 'Ada Türkkahramanı',
-      title: 'IoT Line Fair Organizatörü',
+      title: 'IGZ Ana Organizatörü',
     },
     {
       photo: '/img/photos/team/efe.jpeg',
       name: 'Muharrem Efe Şen',
-      title: 'IoT Line Fair Organizatörü',
+      title: 'IGZ Ana Organizatörü',
     },
     {
       photo: '/img/photos/team/görkem.jpeg',
       name: 'Süleyman Görkem Taşdemir',
-      title: 'EESTEC Summit Ana Organizatörü',
+      title: 'IGZ Ana Organizatörü',
     },
     
      
@@ -156,7 +156,7 @@ const Team = () => {
       </div>
 
       <div className="group left">
-        <div className="teamtitle"><h1>IoT Line Fair'26</h1><h1>Organizatörleri</h1></div>
+        <div className="teamtitle"><h1>IGZ </h1><h1>Organizatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(14, 16).map((person, index) => (
             <PersonCard key={index} person={person} />
@@ -170,7 +170,7 @@ const Team = () => {
             <PersonCard key={index} person={person} />
           ))}
         </div>
-        <div className="teamtitle"><h1>EESTEC Summit </h1><h1>Organizatörü</h1></div>
+        <div className="teamtitle"><h1>IGZ </h1><h1>Organizatörü</h1></div>
       </div>
       
 
