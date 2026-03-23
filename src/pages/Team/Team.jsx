@@ -170,7 +170,7 @@ const Team = () => {
             <PersonCard key={index} person={person} />
           ))}
         </div>
-          
+      </div>
 
     
   )
