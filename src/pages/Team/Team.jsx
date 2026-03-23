@@ -36,42 +36,42 @@ const Team = () => {
     {
       photo: '/img/photos/team/ada.jpeg',
       name: 'Ada Irmak Köylü',
-      title: 'IT Takım Kordinatörü',
+      title: 'IT Takım Koordinatörü',
     },
     {
       photo: '/img/photos/team/dilarakolay.jpeg',
       name: 'Dilara Kolay',
-      title: 'IT Takım Kordinatörü',
+      title: 'IT Takım Koordinatörü',
     },
     {
       photo: '/img/photos/team/sena.jpeg',
       name: 'Sena Nizamoğlu',
-      title: 'Kariyer Takım Kordinatörü',
+      title: 'Kariyer Takım Koordinatörü',
     },
     {
       photo: '/img/photos/team/fatma.jpeg',
       name: 'Fatma Kurt',
-      title: 'Kariyer Takım Kordinatörü',
+      title: 'Kariyer Takım Koordinatörü',
     },
     {
       photo: '/img/photos/team/mali.jpeg',
       name: 'Muhammed Ali Bektaş',
-      title: 'Design Takım Kordinatörü',
+      title: 'Design Takım Koordinatörü',
     },
     {
       photo: '',
       name: 'Hesna Kan',
-      title: 'Design Takım Kordinatörü',
+      title: 'Design Takım Koordinatörü',
     },
     {
       photo: '/img/photos/team/ceren.jpeg',
       name: 'Ceren Çokan',
-      title: 'Magazin Takım Kordinatörü',
+      title: 'Magazin Takım Koordinatörü',
     },
     {
       photo: '/img/photos/team/nehir.jpeg',
       name: 'Nehir Nahire Dalda',
-      title: 'Magazin Takım Kordinatörü',
+      title: 'Magazin Takım Koordinatörü',
     },
     {
       photo: '/img/photos/team/adatk.jpeg',
