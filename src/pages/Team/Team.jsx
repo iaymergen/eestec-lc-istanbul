@@ -164,13 +164,7 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="group right">
-        <div className="people-div">
-          {peopleData.slice(16).map((person, index) => (
-            <PersonCard key={index} person={person} />
-          ))}
-        </div>
-      </div>
+   
 
     
   )
