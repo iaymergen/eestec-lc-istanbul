@@ -176,7 +176,7 @@ const Team = () => {
         </div>
        </div>
       
-      <div className="group right">
+      <div className="group left">
         <div className="teamtitle"><h1>PR </h1><h1>Koordinatörü</h1></div>
         <div className='people-div'>
           {peopleData.slice(18, 19).map((person, index) => (
