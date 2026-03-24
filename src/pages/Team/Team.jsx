@@ -17,7 +17,7 @@ const Team = () => {
     {
       photo:  '/img/photos/team/irmak.jpeg',
       name: 'Irmak Okyay',
-      title: 'CP',
+      title: 'Contact Person',
     },
     {
       photo: '/img/photos/team/dilaramelis.jpeg',
