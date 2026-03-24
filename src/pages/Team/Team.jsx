@@ -93,7 +93,11 @@ const Team = () => {
       name: 'Can Bal',
       title: 'IGZ Ana Organizatörü',
     },     
-     
+    {
+      photo: '/img/photos/team/beril2.jpeg',
+      name: 'Beril Kaşıkçıoğlu',
+      title: 'PR Koordinatörü',
+    },          
        
      
     
@@ -171,8 +175,15 @@ const Team = () => {
           ))}
         </div>
        </div>
-
       
+      <div className="group right">
+        <div className="teamtitle"><h1>PR </h1><h1>Koordinatörü</h1></div>
+        <div className='people-div'>
+          {peopleData.slice(18, 18).map((person, index) => (
+            <PersonCard key={index} person={person} />
+          ))}
+        </div>
+       </div>      
 
     </div>
 
