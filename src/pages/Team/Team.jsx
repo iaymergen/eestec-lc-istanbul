@@ -155,7 +155,7 @@ const Team = () => {
         <div className="teamtitle"><h1>Magazin Takım</h1><h1>Koordinatörleri</h1></div>
       </div>
 
-      <div className="group left">
+      <div className="group center">
         <div className="teamtitle"><h1>IGZ </h1><h1>Organizatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(14, 16).map((person, index) => (
