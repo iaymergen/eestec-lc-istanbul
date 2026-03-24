@@ -126,7 +126,7 @@ const Team = () => {
       </div>
 
       <div className="group left">
-        <div className="teamtitle"><h1>IT Takım</h1><h1>Kordinatörleri</h1></div>
+        <div className="teamtitle"><h1>IT Takım</h1><h1>Koordinatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(6, 8).map((person, index) => (
             <PersonCard key={index} person={person} />
@@ -140,11 +140,11 @@ const Team = () => {
             <PersonCard key={index} person={person} />
           ))}
         </div>
-        <div className="teamtitle"><h1>Kariyer Takım</h1><h1>Kordinatörleri</h1></div>
+        <div className="teamtitle"><h1>Kariyer Takım</h1><h1>Koordinatörleri</h1></div>
       </div>
 
       <div className="group left">
-        <div className="teamtitle"><h1>Design Takım</h1><h1>Kordinatörleri</h1></div>
+        <div className="teamtitle"><h1>Design Takım</h1><h1>Koordinatörleri</h1></div>
         <div className='people-div'>
           {peopleData.slice(10, 12).map((person, index) => (
             <PersonCard key={index} person={person} />
