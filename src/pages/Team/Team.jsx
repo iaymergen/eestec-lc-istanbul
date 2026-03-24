@@ -83,16 +83,8 @@ const Team = () => {
       name: 'Muharrem Efe Şen',
       title: 'IGZ Ana Organizatörü',
     },
-    {
-      photo: '/img/photos/team/görkem.jpeg',
-      name: 'Süleyman Görkem Taşdemir',
-      title: 'IGZ Ana Organizatörü',
-    },
-    {
-      photo: '/img/photos/team/beril.jpeg',
-      name: 'Beril Kaşıkçıoğlu',
-      title: 'PR Koorinatörü',
-    },    
+    
+     
        
      
     
