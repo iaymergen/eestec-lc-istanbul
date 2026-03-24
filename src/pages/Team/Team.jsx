@@ -160,19 +160,12 @@ const Team = () => {
         <div className="teamtitle"><h1>Magazin Takım</h1><h1>Koordinatörleri</h1></div>
       </div>
       
-<div className="group center">
-        <div className="people-div">
-          {peopleData.slice(14, 16).map((person, index) => (
-            <PersonCard key={index} person={person} />
-          ))}
-        </div>
-        <div className="teamtitle"><h1>PR </h1><h1>Koordinatörü</h1></div>
-      </div>
+
       
       <div className="group center">
         <div className="teamtitle"><h1>IGZ </h1><h1>Organizatörleri</h1></div>
         <div className='people-div'>
-          {peopleData.slice(16, 18).map((person, index) => (
+          {peopleData.slice(14, 16).map((person, index) => (
             <PersonCard key={index} person={person} />
           ))}
         </div>
