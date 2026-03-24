@@ -89,7 +89,7 @@ const Team = () => {
       title: 'IGZ Ana Organizatörü',
     },
     {
-      photo: 'public/img/photos/team/beril.jpeg',
+      photo: '/img/photos/team/beril.jpeg',
       name: 'Beril Kaşıkçıoğlu',
       title: 'PR Koorinatörü',
     },    
