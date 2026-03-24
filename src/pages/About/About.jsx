@@ -10,7 +10,7 @@ const About = () => {
     '/img/about-2.jpeg',
     '/img/about-3.jpeg',
     '/img/about-4.jpeg',
-    'https://istanbul.eestec.net/img/photos/about/about-5.jpg',
+    '/img/about-4.jpeg',
     'https://istanbul.eestec.net/img/photos/about/about-6.JPG',
   ];
 
