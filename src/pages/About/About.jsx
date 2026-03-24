@@ -6,7 +6,7 @@ import PhotoGallery from '../../components/PhotoGallery/PhotoGallery';
 const About = () => {
 
   const photos = [
-    'https://istanbul.eestec.net/img/photos/about/about-1.jpg',
+    'https://istanbul.eestec.net/img/photos/about/img/board.jpeg,
     'https://istanbul.eestec.net/img/photos/about/about-2.JPG',
     'https://istanbul.eestec.net/img/photos/about/about-3.jpg',
     'https://istanbul.eestec.net/img/photos/about/about-4.jpg',
