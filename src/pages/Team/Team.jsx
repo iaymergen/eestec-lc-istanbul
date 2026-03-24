@@ -88,6 +88,11 @@ const Team = () => {
       name: 'Süleyman Görkem Taşdemir',
       title: 'IGZ Ana Organizatörü',
     },
+    {
+      photo: 'public/img/photos/team/beril.jpeg',
+      name: 'Beril Kaşıkçıoğlu',
+      title: 'PR Koorinatörü',
+    },    
        
      
     
@@ -154,7 +159,16 @@ const Team = () => {
         </div>
         <div className="teamtitle"><h1>Magazin Takım</h1><h1>Koordinatörleri</h1></div>
       </div>
-
+      
+<div className="group center">
+        <div className="people-div">
+          {peopleData.slice(12, 14).map((person, index) => (
+            <PersonCard key={index} person={person} />
+          ))}
+        </div>
+        <div className="teamtitle"><h1>PR </h1><h1>Koordinatörü</h1></div>
+      </div>
+      
       <div className="group center">
         <div className="teamtitle"><h1>IGZ </h1><h1>Organizatörleri</h1></div>
         <div className='people-div'>
