@@ -166,7 +166,7 @@ const Team = () => {
       <div className="group center">
         <div className="teamtitle"><h1>IGZ </h1><h1>Organizatörleri</h1></div>
         <div className='people-div'>
-          {peopleData.slice(14, 16).map((person, index) => (
+          {peopleData.slice(14, 18).map((person, index) => (
             <PersonCard key={index} person={person} />
           ))}
         </div>
