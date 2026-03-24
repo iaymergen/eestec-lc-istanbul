@@ -84,7 +84,7 @@ const Team = () => {
       title: 'IGZ Ana Organizatörü',
     },
     {
-      photo: '/img/photos/team/görkem2.jpeg',
+      photo: '',
       name: 'Görkem Taşdemir',
       title: 'IGZ Ana Organizatörü',
     }, 
